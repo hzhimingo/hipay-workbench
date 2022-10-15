@@ -15,6 +15,8 @@ import { NButton, NConfigProvider, NThemeEditor } from 'naive-ui';
 import { reactive } from 'vue';
 const themeOverride = reactive({
   common: {
+    borderRadius: '5px',
+    borderRadiusSmall: '3px',
     primaryColor: '#2d8cf0',
     primaryColorHover: '#5cadff',
     primaryColorPressed: '#2b85e4',
