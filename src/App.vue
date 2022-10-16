@@ -1,6 +1,6 @@
 <template>
   <n-config-provider :theme-overrides="themeOverride">
-    <basic-layout></basic-layout>
+    <BasicLayout />
   </n-config-provider>
 </template>
 
