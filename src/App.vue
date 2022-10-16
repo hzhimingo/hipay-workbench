@@ -1,18 +1,13 @@
 <template>
   <n-config-provider :theme-overrides="themeOverride">
-    <n-theme-editor>
-      <n-button type="primary">Button</n-button>
-      <n-button type="info">Button</n-button>
-      <n-button type="success">Button</n-button>
-      <n-button type="warning">Button</n-button>
-      <n-button type="error">Button</n-button>
-    </n-theme-editor>
+    <basic-layout></basic-layout>
   </n-config-provider>
 </template>
 
 <script setup>
-import { NButton, NConfigProvider, NThemeEditor } from 'naive-ui';
+import { NConfigProvider } from 'naive-ui';
 import { reactive } from 'vue';
+import BasicLayout from './layout/BasicLayout.vue';
 const themeOverride = reactive({
   common: {
     borderRadius: '5px',
