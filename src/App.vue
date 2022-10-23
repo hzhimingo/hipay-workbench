@@ -31,8 +31,8 @@ const themeOverride = reactive({
     errorColor: '#ed4014',
     errorColorHover: '#f16643',
     errorColorPressed: '#e13d13',
-    errorColorSuppl: '#f16643',
-  },
+    errorColorSuppl: '#f16643'
+  }
 });
 </script>
 
